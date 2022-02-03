@@ -1,0 +1,19 @@
+{
+  "name": "chessbackend",
+  "version": "1.0.0",
+  "description": "Chess Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsumit011/ChessBackend.git"
+  },
+  "author": "Sumit and Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsumit011/ChessBackend/issues"
+  },
+  "homepage": "https://github.com/kingsumit011/ChessBackend#readme"
+}
