@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
+//USE FOR SECURITY
 const jwt = require("express-jwt");
 const secret = process.env.JWT_SECRET;
-//expressJwt({ secret:  process.env.JWT_SECRET, algorithms: ['RS256'] });
 
 const authenticate = jwt({
 	secret: secret,
