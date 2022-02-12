@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
+    "prod": "nodemon ./bin/www",
     "test": "nyc _mocha --timeout 10000 --exit --report lcovonly -- -R spec",
     "lint": "eslint --fix --config .eslintrc.json \"**/*.js\""
   },
